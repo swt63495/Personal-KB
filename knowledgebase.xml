@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Notes:
+		1) All '&' in text should be changed to '&amp;'
+-->
+<knowledgebase>
+	<entry>
+		<topic>XML</topic>
+		<notes>Can't write to document!</notes>
+		<date_added>10/12/2012</date_added>
+		<category>computer</category>
+		<keywords>web, xml, limitation, javascript</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Thunderbird, Gmail, All Mail</topic>
+		<notes>see PDF</notes>
+		<date_added>7/26/2012</date_added>
+		<category>computer</category>
+		<keywords>IMAP, mailbox location, Read Now PDF converter, email</keywords>
+		<url>file:Thunderbird and Gmail All Mail.pdf</url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Moving through open tabs in Firefox</topic>
+		<notes>Ctrl-tab moves through open tabs in Firefox (Mac version). Shift-ctrl-tab moves through open tabs right to left. Navigation wraps around.</notes>
+		<date_added>8/18/2012</date_added>
+		<category>computer</category>
+		<keywords>computer, browser, Mac</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>CSS Hover: not just for breakfast</topic>
+		<notes>Not just for anchors
+	hrefs: hover can be used with other elements! E.g., 
+	
+	#kb_table th:hover {
+		background-color: green;
+		color: #FFFFFF;
+		font-size: 1.5em;
+	}
+	
+This eliminates need to call 'onmouseover' and 'onmouseout'  to deal with dynamic styling; Also, this leaves javascript function clear to focus on 'onclick' scripting.
+		</notes>
+		<date_added>9/6/2012</date_added>
+		<category>computer</category>
+		<keywords>CSS, web, HTML, javascripts</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Javascript Objects as Associative Arrays</topic>
+		<notes>i.e. row[3].topic == row[3]["topic"] == "Moving through open tabs in Firefox"</notes>
+		<date_added>9/7/2012</date_added>
+		<category>computer</category>
+		<keywords>javascript, functions</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>tab width in Textwrangler</topic>
+		<notes>set in preferences--> Editor defaults --> Tab width (at bottom of box)</notes>
+		<date_added>9/23/2012</date_added>
+		<category>computer</category>
+		<keywords>editor</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Useful Tech Websites</topic>
+		<notes>Lifehacker.com</notes>
+		<date_added>9/23/2012</date_added>
+		<category>computer</category>
+		<keywords>internet, online</keywords>
+		<url>http://lifehacker.com</url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Using Hyperlinks In Word 2011 for Mac</topic>
+		<notes>Cmd-K</notes>
+		<date_added>10/17/2012</date_added>
+		<category>computer</category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Real delete Key on Mac is fn-delete!</topic>
+		<notes>Hold down function-key (fn) and press 'delete' to delete char(s) to the right of the cursor!</notes>
+		<date_added>10/10/2012</date_added>
+		<category>computer</category>
+		<keywords>word processing</keywords>
+		<url>http://tips4mac.blogspot.com/2007/04/pc-delete-key-on-mac.html</url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Preserving whitespace in my KB table</topic>
+		<notes>White-space is Preserved in XML
+		
+	HTML truncates multiple white-space characters to one single white-space:
+	HTML: 	Hello           Tove
+	Output: 	Hello Tove
+	
+	With XML, the white-space in a document is not truncated.
+	XML Stores New Line as LF
+	
+	In Windows applications, a new line is normally stored as a pair of characters: carriage return (CR) and line feed (LF). In Unix applications, a new line is normally stored as an LF character. Macintosh applications also use an LF to store a new line.
+	
+	XML stores a new line as LF.
+	
+	The whiteSpace property sets or returns how to handle tabs, line breaks and whitespace in a text.
+	Syntax
+	
+	Set the whiteSpace property:
+	Object.style.whiteSpace="normal|nowrap|pre|inherit"
+	
+	Return the whiteSpace property:
+	Object.style.whiteSpace
+	
+Whitespace property settings:
+	Value 	Description
+	normal 	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary. This is default
+	nowrap 	Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a "br" tag is encountered
+	pre 	Whitespace is preserved by the browser. Text will only wrap on line breaks Acts like the "pre" tag in HTML
+	pre-line 	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks
+	pre-wrap 	Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks
+	inherit 	Specifies that the value of the white-space property should be inherited from the parent element
+	</notes>
+		<date_added>1/19/2013</date_added>
+		<category>computer</category>
+		<keywords>html, javascript, xml</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>HTML-style comments don't work for php code</topic>
+		<notes>Instead of using HTML comments (which have no effect on PHP code -- which will still be executed), you should use PHP comments</notes>
+		<date_added>3/28/2013</date_added>
+		<category>computer</category>
+		<keywords>coding, scripts, stackoverflow</keywords>
+		<url>http://stackoverflow.com/questions/5781375/comment-out-html-and-php-together</url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Mac OS X: How to change your default email application or web browser</topic>
+		<notes>Choosing a default email application
+
+    Open Mail (/Applications/Mail).
+    From the Mail menu, choose Preferences.
+    Click the General button.
+    Choose your desired default email application from the "Default email reader" pop-up menu.
+    
+Need to do this else iCal tries to send notifications via MAil
+</notes>
+		<date_added>6/12/2013</date_added>
+		<category>computer</category>
+		<keywords>email, iCal</keywords>
+		<url>http://support.apple.com/kb/ht1637</url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Absolute cell reference in Excel formulas</topic>
+		<notes>Cells are specified by a column-letter and row-number (e.g., 'A1', 'K12'). Place a '$' in front of either to absolutely refer that part of the reference (e.g., 'F$6') or in front of both elements to totally freeze the cell reference (e.g., '$G$7'). </notes>
+		<date_added>6/21/2013</date_added>
+		<category>Computer</category>
+		<keywords>spreadsheet, Excel, freeze</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Peculiar behavior in Sublime 2</topic>
+		<notes>For SQL files, change User preferences before opening them!</notes>
+		<date_added>10/25/2014</date_added>
+		<category>computer</category>
+		<keywords>mac, php, javascript, sql, Sublime 2 Text Editor </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Sublime Info</topic>
+		<notes>See Cheat Sheets</notes>
+		<date_added>10/25/2014</date_added>
+		<category>computer</category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Online coding tutorials</topic>
+		<notes>team treehouse, code academy, launch academy</notes>
+		<date_added>10/25/2014</date_added>
+		<category>computer</category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Excel Hard Return</topic>
+		<notes>Control + Option + Enter</notes>
+		<date_added> </date_added>
+		<category>computer</category>
+		<keywords>10/25/2014</keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>Set scrollbars to windows</topic>
+		<notes>System Preferences > General > Show Scroll: Set to Always or When scrolling.</notes>
+		<date_added> </date_added>
+		<category>computer</category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic>MySQL INSERT query example</topic>
+		<notes>"mysqli_query($link, ""CREATE TABLE myCity LIKE City"");
+$query = ""INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)"";
+mysqli_query($link, $query);
+printf (""New Record has id %d.\n"", mysqli_insert_id($link));"</notes>
+		<date_added> </date_added>
+		<category> </category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic> </topic>
+		<notes> </notes>
+		<date_added> </date_added>
+		<category> </category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+	<entry>
+		<topic> </topic>
+		<notes> </notes>
+		<date_added> </date_added>
+		<category> </category>
+		<keywords> </keywords>
+		<url> </url>
+		<img> </img>
+	</entry>
+</knowledgebase>

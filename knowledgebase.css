@@ -1,0 +1,122 @@
+h1
+{
+	font-size: 4em;
+	padding-top:1em;
+	color: #880000;
+}
+
+h2
+{
+	font-size: 2.5em;
+	color: #880000;
+}
+
+h3
+{
+	font-size: 1.5em;
+}
+
+#title_link_to_home
+{
+	color: #880000;
+	text-decoration: none;
+}
+
+
+/* -------------------------kb_table styling ------------------- */
+
+#kb_table
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#kb_table td, #kb_table th 
+{
+	font-size:1em;
+	border:1px solid #09F;
+	padding:3px 7px 2px 7px;
+}
+
+#kb_table td:hover 
+{
+	color:#ff4f00;
+}
+
+/* local styling of header cells */
+#kb_table th 
+{
+	font-size:1.1em; /* slightly bigger than body text */
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#06F;
+	color:#ffffff;
+}
+
+#kb_table th:hover
+{
+	color:#ffffff;	/* to counter current font-color change from 'onkeypress' */
+	font-size: 1.12em; /* slightly bigger still */
+	background-color: #bd0043;/* flip to redish background */
+}
+
+
+/* ------------------------- copyright styling ------------------- */
+
+#copyright{
+	margin-top: 2em;
+	font-size:75%;
+	font-weight:bold;
+	color: #AAA;
+	text-align:center;
+}
+
+/* ------------------------- more generic styling ------------------- */
+
+
+
+.noDisplay {display: none;} /* should not display (be invisible) */
+.reveal {display: block} /* should display (overrides no-display) */
+
+
+.notes, .status
+{
+	white-space: pre-wrap;
+}
+
+.center
+{
+	text-align:center
+}
+
+.indent20
+{
+	margin-left:20%;
+}
+
+a.menu:link,a.menu:visited
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#06F;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a.menu:hover,a.menu:active
+{
+	background-color:#06F;
+}
+
+#menu table
+{
+	background-color:#09F;
+}

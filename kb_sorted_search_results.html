@@ -1,0 +1,31 @@
+<!DOCTYPE html>			<!-- sorted_kb_search_results -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Sorted Search Results</title>
+		<link rel="stylesheet" href="knowledgebase.css" />
+		<script type="text/javascript" src="kb_scripts.js"></script>
+		<script type="text/javascript" src="all-purpose_scripts.js"></script>
+	</head>
+	<body onload="main(),document.query.keyword.focus()"> <!-- Use Javascript to build table dynamically -->
+		<h2 class="center"><a id="title_link_to_home" href="kb_search_form.html">Sorted Search Results</a></h2>
+		<div id="resultsBlurbDiv">
+		</div>
+		<div id="memory" class="noDisplay"><!-- Dynamic, persistent data storage -->
+			<p id="oldkeyfield"></p>
+			<p id="oldsorttype"></p>
+			<p id="rowcount"></p>
+		</div>
+		<div id="tableDiv">
+			<table id="kb_table" border="1">
+			  <tbody>
+			  </tbody>
+			</table>
+		</div>	
+<!--  
+		<h3 class="center"><a href="kb_search_form.html"><em>BACK</em></a></h3>
+-->
+		<p id = "copyright">&copy; Stephen Tanner 2013</p>
+		
+	</body>
+</html>
